@@ -7,8 +7,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<%= render(:partial => 'layouts/header') if (params[:action] != 'home') %>
+	<%= yield %>
+<!-- render footer -->
 </body>
 </html>
