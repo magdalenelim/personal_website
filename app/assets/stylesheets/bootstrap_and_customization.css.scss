@@ -1,1 +1,28 @@
 @import 'bootstrap';
+
+h1 {
+	// padding-left: 200px;
+	padding-bottom: 20px;
+}
+
+.body2 {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.portrait {
+	// -webkit-border-radius: 20px;
+	// -moz-border-radius: 20px;
+	// border-radius: 20px;
+	// border: 3px solid #BADA55;
+	height: 50%;
+	width: 50%;
+	float: right;
+}
+
+.description {
+	font-size: 18px;
+	color: #7f8c8d;
+	line-height: 2em;
+}
+
